@@ -11,3 +11,10 @@ To find this commit I used the command "git log -p" and used "/" for searching -
 This code was mentioned by Bartek Skwira in Stack overflow.
 I tried to use the grep alternatives for search but none were as useful.
 
+Task 8
+------------
+I used 'cat readme.txt' to see the text, and then I used 'echo "message" >> readme.txt' to add a line. (I knew these from Linux)
+Then I used gitk [readme.txt] to open an interface that allowed me to see the changes between commits.
+The gitk command was posted by Claudio Acciaresi on Stack overflow.
+
+
