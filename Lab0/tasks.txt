@@ -1,2 +1,3 @@
 Task 6
 ------------
+I used the command git --amend found in GitHub Help, which openned the text editor to modify my commit message.
