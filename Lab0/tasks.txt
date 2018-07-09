@@ -1,3 +1,13 @@
 Task 6
 ------------
 I used the command git --amend found in GitHub Help, which openned the text editor to modify my commit message.
+
+Task 7
+------------
+Commit SHA: c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168
+Commit message: "Add --no-mouse option to replace FZF_MOUSE_ENABLED"
+
+To find this commit I used the command "git log -p" and used "/" for searching --no-mouse.
+This code was mentioned by Bartek Skwira in Stack overflow.
+I tried to use the grep alternatives for search but none were as useful.
+
