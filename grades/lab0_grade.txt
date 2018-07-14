@@ -1,0 +1,21 @@
+Task 1: 10 points
+Task 2: 4 points
+	--> Missing lab4 directory
+Task 3: 5 points
+Task 4:	5 points
+Task 5:	4 points
+	--> Missing line "Hopefully our last change"
+Task 6: 5 points
+Task 7: 4 points
+	--> Cite with a link next time
+Task 8: 4 points
+	--> We were looking for "git diff <filename>", but this also works. Link?
+Task 9: 0 points
+	--> No explanation for this task.
+Task 10: 5 points
+	--> No explanation for this task, and also no record of the right command being used. If you have questions, ask on piazza(you can ask anonymously) or come to office hours.
+Task 11: 0 points
+	--> Done late.
+Total: 46/60
+
+You can redo tasks 9 and 10 for a regrade by next Lab.
