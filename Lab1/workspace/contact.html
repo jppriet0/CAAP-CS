@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <ul class="navbar-head">
+                <li><img class="logo" src="images/Pyro logo.png"></li>
+                <li><a class="headitem" href="welcome.html" class="active">Welcome</a></li>
+                <li><a class="headitem" href="about.html">About</a></li>
+                <li><a class="headitem" href="product.html">Product</a></li>
+                <li class="active"><a class="headitem" href="#">Contact</a></li>
+                <li id="quote">"Every revolution starts with a spark..."</li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>Meet our team:</h1>
+    <p>Click photos to learn more</p>
+    <a href="profile.html"><img class="jpic center" alt="Photo of Juan" src="images/pic.jpg"></img></a>
+    <p class="center">Juan P. Prieto</p>
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Type your first name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Type your last name..">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="lastname" placeholder="Type your e-mail...">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    <footer>
+        <p>© 2018 by RealityHacking Industries.</p>
+        <ul>
+            <li><a class="footitem" href="#"><b>Support our Kickstarter!</b></a></li>
+            <li class="social"><a href="#" class="fa fa-facebook"></a></li>
+            <li class="social"><a href="#" class="fa fa-twitter"></a></li>
+            <li class="social"><a href="#" class="fa fa-google"></a></li>
+            <li><a class="footitem"> </a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
