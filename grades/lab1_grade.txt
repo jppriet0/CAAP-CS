@@ -1,0 +1,43 @@
+Lab 1
+CAAP CMSC 101, Summer 2018
+
+Required Elements/Attributes
+  Correct use           3/3
+  Used all              1/3 (* mian page is missing almost everything *)
+  Balanced amount       3/3 
+
+Semantic markup
+  Well structured hierarchies    18/20
+
+Correct use of directories/files
+  Links                 5/5
+  In docs directory     0/5
+  Git sites works       0/10
+
+Validation
+  Both pages and stylesheets  0/20
+
+Design/CSS
+  Dynamic screen size    5/5
+  Efficient use of CSS on multiple pages     10/10
+  Professional design in both pages  2/5
+  
+
+Code style
+  format         3/3 (* code looks good *)
+  clarity        3/3 (* logic is expressed clearly *)
+  decomposition  3/3 (* problems are factored into sensible subproblems *)
+  efficiency     0/2 (* blatant inefficiencies are avoided *)
+
+_total-score_  57/100
+
+graded by Jose Reyes
+
+Comments:
+- The main page has to always be index.html or home.html, or else the server doesn't know which should be your main page and all your files can be exposed, which is a big security no no.
+- The content is really throwing me off. What's the purpose of having it in a different language than english?
+    --> the main page is missing a lot of key components. Like the welcome message, services info, etc. 
+    --> You could easily make more sections instead of one big block of text.
+- Get git pages working and I can regrade.
+- You didn't seem to have used any of the template I gave you, so you're missing all the validation comments and title of the pages.
+- come see me in office hours, we can go over it.
