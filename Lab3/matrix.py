@@ -46,8 +46,8 @@ def print_matrix(m):
 
 # given a state matrix, and a transition matrix, runs a markov simulation of the game and returns average number of moves.  
 def markov_simulation():
-	r, c = eval(input("What are the dimensions of the game? (rows and columns separated by commas)"))
-	print(r*c)
+	r, c = eval(input("What are the dimensions of the game? (rows and columns separated by commas) "))
+	print("game size:", r*c)
 	markov = makeidentity(r*c)
 	probmat = make_matrix(r*c,r*c)
 	m_turns = 0

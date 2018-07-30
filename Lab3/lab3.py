@@ -5,8 +5,12 @@ from random import randint
 from time import sleep
 
 # global variable of chutes and ladders
-# remenber to let your function know you're using this variable with 'global'
-chutes_ladders = {}
+# chutes and ladders playable up to a 16*16 board.
+chutes_ladders = {4:7, 8:15, 12:2, 14:6, 21:42, 28:84, 36:44,
+                  47:26, 49:11, 51:67, 56:53, 62:19, 64:60,
+                  71:91, 80:100, 87:24, 93:73, 95:75, 98:78, 
+                  109:117, 124:94, 136:142, 153:177, 170:115, 
+                  180:164, 199:1, 212:230, 234:198, 247:233}
 
 winner = ""
 
@@ -82,18 +86,9 @@ def main():
 	mode = input("Please indicate mode ('play' or 'simulation'): ")
 	if mode == "simulation":
 		l, w = eval(input("indicate lenght and width of game (respectivelly), separated by commas: "))
-		
-		chutes_ladders = {4 : 7,
-						8 : 15,
-						12 : 2,
-						14: 6}
 		simulate_game(l, w)
 	else:
 		l, w = eval(input("indicate lenght and width of game (respectivelly), separated by commas: "))
-		chutes_ladders = {4 : 7,
-						8 : 15,
-						12 : 2,
-						14: 6}
 		play_game("play", l, w)
 
 if __name__ == "__main__":
