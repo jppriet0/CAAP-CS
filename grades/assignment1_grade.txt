@@ -1,0 +1,15 @@
+Assignment 1 Grade:
+
+1. Hello world: 2/2 pts
+2. Converter:  6/6 pts
+3. Unit Conversion:  6/6 pts
+4. Slope: 10/10 pts
+5. Fibonacci Sequence: 6/6 pts
+6. Part 2 - Change: 30/20 pts
+	--> Asks for type of currency: +10pts
+7. Part 4 - 10/10 pts
+
+Readme File: 
+	--> -10 pts, bad readme (only includes names and nothing else)
+
+60/60 Points total
